@@ -1,16 +1,25 @@
-# runly
-[qray](..%2F..%2Fqray)
-A new Flutter project.
+# 📱 Adım Sayar Uygulaması
 
-## Getting Started
+Flutter ile geliştirilmiş **Adım Sayar** uygulaması, kullanıcıların günlük adımlarını takip etmelerine, hedef belirlemelerine ve sağlık puanları kazanmalarına olanak tanır.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📌 Özellikler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Gerçek zamanlı adım sayacı (Pedometer API)  
+✅ Günlük ve haftalık adım takibi  
+✅ Kullanıcı tarafından güncellenebilir adım hedefi  
+✅ Sağlık puanları hesaplama (1000 adım = 1 puan)  
+✅ Bildirim ile adım hedefi tamamlandığında uyarı  
+✅ Verileri kalıcı olarak saklama (SharedPreferences)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Kurulum ve Kullanım
+
+1. **Flutter SDK**’nın kurulu olduğundan emin olun. Eğer kurulu değilse, [Flutter Kurulum Rehberi](https://flutter.dev/docs/get-started/install) bağlantısını takip edin.  
+2. Projeyi bilgisayarınıza klonlayın:
+
+   ```sh
+   git clone https://github.com/kullaniciadi/adim-sayar.git
+   cd adim-sayar
